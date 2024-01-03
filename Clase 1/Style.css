@@ -1,0 +1,42 @@
+.nav-menu li {
+    margin-bottom: 25px; /* Ajusta el valor del margen según sea necesario */
+}
+
+
+.nav-menu ul{
+    height: 60px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(215, 117, 148);
+    border-radius: 15px;
+    list-style: none;
+}
+
+.nav-menu a{
+    background-color: rgb(231, 205, 255);
+    padding: 10px;
+    border-radius: 10px;
+    text-decoration: none;
+    transition: all 4s;
+    color: #2ba9bc; /* Agrega el color aquí para que sea igual al del efecto */
+    position: relative; /* Esto es necesario para el efecto de sobrepuesto */
+    overflow: hidden;
+}
+
+
+.nav-menu a:hover{
+    background-color: rgba(155, 43, 91, 0.607);
+    color: #fff;
+    padding: 14px;
+    transition: all 1s;
+
+}
+
+.nav-menu ul li a:active{
+    background-color: rgba(158, 97, 97, 0.607);
+    color: #fff;
+    padding: 14px;
+    transition: all 1s;
+
+} 
